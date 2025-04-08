@@ -5,7 +5,7 @@ public class Main {
         AtmOperationInterf op=new AtmOperationImpl();
         int atmnumber=12345;
         int atmpin=123;
-        Scanner in=new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.println("Welcome to ATM Machine !!!");
         System.out.print("Enter Atm Number : ");
         int atmNumber=in.nextInt();
