@@ -46,6 +46,8 @@ public class Main {
     else{
         System.out.println("Incorrect Atm Number or pin");
         System.exit(0);
+
+        in.close();
     }
 
 
